@@ -9,17 +9,17 @@ body {
   display: flex;
   background-color: rgb(45, 45, 45);
   font-family: "MS Sans Serif", Arial, sans-serif;
-  font-size: large;
+  font-size: x-large;
   display: flex;
   justify-content: center;
 }
 
 div#container {
-  margin: 5em 2em;
+  margin: 1em 2em;
   padding: 7px;
   background-color: #bfbec4;
   box-shadow: var(--borde-3d);
-  width: 700px;
+  width: 60%;
 }
 
 h2 + div {
@@ -35,12 +35,13 @@ p {
 }
 
 .objs {
-    font-weight: 900;
-    box-shadow: var(--borde-3d);
-    background-color: var(--background-object);
-    color: black;
-    padding: 2px 8px;
+  font-weight: 900;
+  box-shadow: var(--borde-3d);
+  background-color: var(--background-object);
+  color: black;
+  padding: 2px 8px;
 }
+
 header {
   padding: 0 5px;
   background-color: #000074;
@@ -83,7 +84,7 @@ main {
 
 .cv {
   overflow: hidden;
-  height: 500px;
+  height: 700px;
 }
 
 embed {
@@ -115,4 +116,21 @@ footer.info_cv > div {
   background-color: #bfbfbf;
   padding: 7px;
   width: 100%;
+}
+
+@media (max-width: 915px) {
+  body {
+    font-size: large;
+  }
+
+  div#container {
+    margin: 1em;
+    width: 90%;
+  }
+}
+
+@media (max-width: 690px) {
+  body {
+    font-size: small;
+  }
 }
