@@ -84,7 +84,7 @@ main {
 
 .cv {
   overflow: hidden;
-  height: 700px;
+  height: 70vh;
 }
 
 embed {
@@ -132,5 +132,11 @@ footer.info_cv > div {
 @media (max-width: 690px) {
   body {
     font-size: small;
+  }
+}
+
+@media (max-width: 347px) {
+  body {
+    font-size: x-small;
   }
 }
