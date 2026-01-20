@@ -87,10 +87,13 @@ main {
   height: 70vh;
 }
 
-embed {
-  margin-top: -55px;
-  padding: 0;
-}
+//! (deprecated) ya no se inserta un embed
+// Antes usaba el lector integrado del navegador
+// Ahora utiliza PDFjs
+//embed {
+//  margin-top: -55px;
+//  padding: 0;
+//}
 
 div.info_cv,
 footer.info_cv {
