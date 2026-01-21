@@ -8430,20 +8430,14 @@ dialog :link{
 }
 
 @media (max-width: 370px) {
-  #editorModeButtons {
-    display: none;
-  }
-}
-
-@media (max-width: 370px) {
-  #editorModeButtons {
+  #editorModeButtons, #viewsManagerToggleButton {
     display: none;
   }
 }
 
 @media (max-width: 340px) {
   #toolbarViewer {
-    width: 0 !important;
+    width: 80% !important;
   }
 }
 
