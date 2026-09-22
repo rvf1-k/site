@@ -2,6 +2,16 @@ MIT License
 
 Copyright (c) 2026 rvf1-k
 
+This license applies only to the original source code of this website
+created by rvf1-k.
+
+It does not apply to:
+
+- PDF.js, located in asset/pdfjs/, which is licensed under the Apache License 2.0.
+- CV_Rafael_Moreno.pdf and its contents.
+- Personal photographs, logos, text, and personal information.
+- Third-party materials, which remain under their respective licenses.
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
