@@ -53,14 +53,13 @@ header {
 
 .index > ul {
   display: flex;
-  gap: 1em;
-  padding: 5px 5px 7px;
+  /*padding: 5px 5px 7px;*/
 }
 
 h2,
 ul {
   padding: 0;
-  margin: 5px;
+  margin: 5px 5px 0;
 }
 
 a {
@@ -68,9 +67,23 @@ a {
   text-decoration: none;
 }
 
-li {
+li, span {
+  padding: 0.25em 0.5em;
   list-style: none;
 }
+
+li:hover {
+  box-shadow:
+  inset -2px -2px 1px #949494,
+  inset 2px 2px 1px #e8e8e8;
+}
+
+li:focus, li:active {
+  box-shadow:
+  inset -2px -2px 1px #e8e8e8,
+  inset 2px 2px 1px #949494;
+}
+
 
 li::first-letter {
   text-decoration: underline;
