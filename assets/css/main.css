@@ -86,6 +86,7 @@ main {
   overflow: hidden;
   height: 70vh;
 }
+
 /*
 ! (deprecated) ya no se inserta un embed
 ! Antes usaba el lector integrado del navegador
@@ -119,6 +120,10 @@ footer.info_cv > div {
   background-color: #bfbfbf;
   padding: 7px;
   width: 100%;
+}
+
+.bytes {
+  cursor: pointer;
 }
 
 @media (max-width: 915px) {
