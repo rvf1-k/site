@@ -126,7 +126,7 @@ footer.info_cv > div {
   cursor: pointer;
 }
 
-@media (max-width: 915px) {
+@media (max-width: 1108px) {
   body {
     font-size: large;
   }
@@ -143,7 +143,7 @@ footer.info_cv > div {
   }
 }
 
-@media (max-width: 347px) {
+@media (max-width: 408px) {
   body {
     font-size: x-small;
   }
