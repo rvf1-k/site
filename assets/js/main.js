@@ -1,5 +1,3 @@
-const secret = document.querySelector('.secret');
+import { entrada } from "./components/window.js";
 
-secret.addEventListener("click", () => {
-  alert("Es un secreto... 🤫");
-});
+entrada();
