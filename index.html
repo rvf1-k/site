@@ -8,11 +8,8 @@
   
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   
-  <link rel="stylesheet" href="asset/css/main.css" />
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="asset/js/main.js"></script>
-
+  <link rel="stylesheet" href="assets/css/main.css" />
+  
   <meta property="og:title" content="Pagina personal">
   <meta property="og:description" content="Explora mi CV, experiencia y redes profesionales.">
   <meta property="og:image" content="https://rvf1-k.github.io/site/assets/img/preview.png">
@@ -21,7 +18,7 @@
 </head>
 
 <body>
-  <div id="container">
+  <div class="window" id="container">
     <a href="https://github.com/rvf1-k/site" title="Ver este repositorio :)">
       <header>
         <h2>rvf1_k</h2>
@@ -37,6 +34,7 @@
         <li><a href="CV_Rafael_Moreno.pdf">Ver</a></li>
         <li><a href="CV_Rafael_Moreno.pdf" download>Descargar</a></li>
         <span>|</span>
+        <li><a href="#" class="proyects">Proyectos</a></li>
         <li><a href="https://github.com/rvf1-k">Github</a></li>
         <li><a href="https://www.linkedin.com/in/rvf1k">Linkedin</a></li>
         <li><a href="#" class="secret">Secret?</a></li>
@@ -53,7 +51,7 @@
         </div>
       </div>
       <section class="cv">
-        <iframe src="asset/pdfjs/web/viewer.html?file=../../../CV_Rafael_Moreno.pdf" width="100%" height="100%"
+        <iframe src="assets/pdfjs/web/viewer.html?file=../../../CV_Rafael_Moreno.pdf" width="100%" height="100%"
           style="border: none;">
         </iframe>
         <!--<embed src="CV_Rafael_Moreno.pdf" type="application/pdf" width="100%" height="112%" />-->
@@ -65,10 +63,13 @@
         <p>1 object(s)</p>
       </div>
       <div>
-        <p>269.377 bytes</p>
+        <p class="bytes" title="Me genero automaticamente!!">--- bytes</p>
       </div>
     </footer>
   </div>
-</body>
+  <div class="window" id="proyects">
 
+  </div>
+</body>
+  <script type="module" src="assets/js/main.js"></script>
 </html>
